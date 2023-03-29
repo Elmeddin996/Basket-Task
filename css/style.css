@@ -1,0 +1,123 @@
+.navbar {
+  width: 90%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  background-color: goldenrod;
+}
+
+.navbar .logo-container {
+  width: 12%;
+}
+
+.navbar .logo-container img {
+  width: 100%;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar ul li {
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.navbar .shopping-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+.navbar .shopping-cart img {
+  margin-right: 5px;
+}
+
+.container {
+  width: 90%;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  background-color: #ebd8aa;
+}
+
+.container .product-list {
+  padding-top: 20px;
+  width: 75%;
+  background-color: #bebdbd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .product-list .product-div {
+  width: 40%;
+  height: 40%;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.container .product-list .product-div img {
+  width: 100%;
+  height: 70%;
+}
+
+.container .product-list .product-div button {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  background-color: #ebd8aa;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container .shopping-basket {
+  width: 25%;
+  background-color: #8f6caf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .shopping-basket h3 {
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+
+.navbar{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: goldenrod;
+    
+    .logo-container{
+        width: 12%;
+        img{
+            width: 100%;
+        }
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+       
+        li{
+            font-size: 30px;
+         list-style-type: none;
+         margin: 0 5px;
+        }
+    }
+
+    .shopping-cart{
+       display: flex;
+       align-items: center;
+       margin-right: 20px;
+        img{
+            margin-right: 5px;
+        }
+    
+    }
+}
